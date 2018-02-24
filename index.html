@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Nava</title>
+	<title>NUKUPI</title>
 	<!--META-->
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
 
@@ -17,6 +17,15 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
+
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!--SLIDER-->
+
+
 </head>
 <body>	
 	<div class="se-pre-con">	
@@ -26,13 +35,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#banner" class="logo"><img src="img/logo.png" alt="" /></a>
+					<a href="#banner" class="logo"><img src="img/NMlogo.png" alt="" /></a>
 				</div> 
 				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 					<ul>
-						<li><a href="#destination">TOP DESTINATION</a> </li>
-						<li><a href="#getboat">ADD YOUR BOAT</a></li>
-						<li><a href="#featured" class="signup">SIGN UP</a></li>
+						<li><a href="#getboat">ADD YOUR PRODUCT</a></li>
+						<li><a href="#featured" class="logout">LOG OUT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -42,52 +50,110 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">RESERVE A BOAT NOW!</h1>
-					<p class="headp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">AND SET YOUR SAILS INTO PARADISE!</p>
-					<form>
-						<input type="email" name="email" placeholder="WHAT IS YOUR DESTINATION, SAILOR?" class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.5s"/>
-						<button class="btnsubmit os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.5s"><img src="img/boat.png" alt="" />FIND A BOAT</button>
+					<h1 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">NU KUPI</h1>
+                    <form>
+						<input type="email" name="email" placeholder="what u r looking for?" class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.5s"/>
+						<button class="btnsubmit os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.5s"><img src="img/lup.png" alt="" />SEARCH</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
 	<aside>
 		<div class="container">
 			<div class="row">
+
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="maincounter">
-						<div class="innercounter">
-							<h2 class="counterp">Food</h2>
-							<!--<p class="counter">2,300</p>-->
+
+					<section class="section section--aava">
+						<div class="toggle-button toggle-button--aava">
+							<input id="toggleButton" type="checkbox">
+							<label for="toggleButton" data-on-text="Food" data-off-text="Food"></label>
+							<div class="toggle-button__icon"></div>
 						</div>
-						<div class="innercounter">
-							<h2 class="counter">1,000</h2>
-							<p class="counterp">Cities</p>
+						<div class="toggle-button toggle-button--aava">
+							<input id="toggleButton2" type="checkbox">
+							<label for="toggleButton2" data-on-text="Clothes" data-off-text="Clothes"></label>
+							<div class="toggle-button__icon"></div>
 						</div>
-						<div class="innercounter">
-							<h2 class="counter">35,000</h2>
-							<p class="counterp">Boats</p>
+						<div class="toggle-button toggle-button--aava">
+							<input id="toggleButton3" type="checkbox">
+							<label for="toggleButton3" data-on-text="Domestic" data-off-text="Domestic"></label>
+							<div class="toggle-button__icon"></div>
 						</div>
-						<div class="innercounter">
-							<h2 class="counter">50,000</h2>
-							<p class="counterp">Sailors</p>
+						<div class="toggle-button toggle-button--aava">
+							<input id="toggleButton4" type="checkbox">
+							<label for="toggleButton4" data-on-text="Other" data-off-text="Other"></label>
+							<div class="toggle-button__icon"></div>
 						</div>
-					</div>
+
+						</section>
+
+
+
+					<!--<div class="btn-group-toggle" data-toggle="buttons">-->
+						<!--<label class="btn btn-secondary active" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">-->
+							<!--<input type="checkbox" checked autocomplete="off"> Checked-->
+						<!--</label>-->
+						<!--<label class="btn btn-secondary active" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">-->
+							<!--<input type="checkbox" checked autocomplete="off"> Checked-->
+						<!--</label>-->
+						<!--<label class="btn btn-secondary active" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">-->
+							<!--<input type="checkbox" checked autocomplete="off"> Checked-->
+						<!--</label>-->
+						<!--<label class="btn btn-secondary active">-->
+							<!--<input type="checkbox" checked autocomplete="off"> Checked-->
+						<!--</label>-->
+					<!--</div>-->
+
+
+
+
+					<!--<div class="maincounter">-->
+						<!--<div class="innercounter">-->
+							<!--<h2 class="counter">2,300</h2>-->
+							<!--<p class="counterp">Destinations</p>-->
+						<!--</div>-->
+						<!--<div class="innercounter">-->
+							<!--<h2 class="counter">1,000</h2>-->
+							<!--<p class="counterp">Cities</p>-->
+						<!--</div>-->
+						<!--<div class="innercounter">-->
+							<!--<h2 class="counter">35,000</h2>-->
+							<!--<p class="counterp">Boats</p>-->
+						<!--</div>-->
+						<!--<div class="innercounter">-->
+							<!--<h2 class="counter">50,000</h2>-->
+							<!--<p class="counterp">Sailors</p>-->
+						<!--</div>-->
+					<!--</div>-->
 				</div>
 			</div>
 		</div>
 	</aside>
 	<section id="destination">
 		<div class="container">
+			<!--SLIDE CONTAINER HERE-->
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">EXPLORE OUR TOP DESTINATIONS</h3>
-					<p class="innerp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+				<div class="slidecontainer">
+
+					<p>Price:</p>
+					<input type="range" min="0" max="10000" value="50" class="slider" id="myRange">
+					<p>Less than: <span id="demo"></span> ₸</p>
 				</div>
+
+				<!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">-->
+					<!--<h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">EXPLORE OUR TOP DESTINATIONS</h3>-->
+					<!--<p class="innerp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>-->
+				<!--</div>-->
+
+
+
 			</div>
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">				
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="innerimg os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s">
 						<img src="img/d1.jpg" alt="" class="mainimg" />
 						<button class="price">730</button>
@@ -138,78 +204,67 @@
 					</div>
 				</div>
 			</div>
-			<button class="explore os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.6s">EXPLORE MORE DESTINATIONS</button>
-		</div>
-	</section>
-	<section id="getboat">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h1 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">HAVE YOUR OWN BOAT?</h1>
-					<p class="headp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">NAVIGARE NECESSE EST, VIVERA NON EST NECESSE</p>
-					<button class="explore os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s">MAKE MONEY WITH YOUR BOAT</button>
-				</div>
-			</div>
+			<!--<button class="explore os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.6s">EXPLORE MORE DESTINATIONS</button>-->
 		</div>
 	</section>
 
-	<section id="featured">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">FEATURED POSTS</h3>
-					<p class="innerp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	
-					<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s">
-						<img src="img/g1.jpg" alt="" class="mainimg" />
-						<button class="price">$580 / day</button>
-						<div class="innercontent">
-							<h5>Delphia 47</h5>
-							<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>
-							<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	
-					<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">
-						<img src="img/g2.jpg" alt="" class="mainimg" />
-						<button class="price">$950 / day</button>
-						<div class="innercontent">
-							<h5>Sense 55</h5>
-							<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>
-							<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>
-						</div>
-					</div>
-				</div>		
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	
-					<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">
-						<img src="img/g2.jpg" alt="" class="mainimg" />
-						<button class="price">$950 / day</button>
-						<div class="innercontent">
-							<h5>Crusier 51</h5>
-							<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>
-							<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	
-					<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">
-						<img src="img/g1.jpg" alt="" class="mainimg" />
-						<button class="price">$950 / day</button>
-						<div class="innercontent">
-							<h5>Crusier 41S</h5>
-							<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>
-							<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>
-						</div>
-					</div>
-				</div>		
-			</div>
-			<button class="explore">LOAD MORE BOATS</button>
-		</div>	
-	</section>
+	<!--<section id="featured">-->
+		<!--<div class="container">-->
+			<!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
+				<!--&lt;!&ndash;<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&ndash;&gt;-->
+					<!--&lt;!&ndash;<h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">FEATURED POSTS</h3>&ndash;&gt;-->
+					<!--&lt;!&ndash;<p class="innerp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>&ndash;&gt;-->
+				<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--&lt;!&ndash;</div>&ndash;&gt;-->
+			<!--<div class="row">-->
+				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
+					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s">-->
+						<!--<img src="img/g1.jpg" alt="" class="mainimg" />-->
+						<!--<button class="price">$580 / day</button>-->
+						<!--<div class="innercontent">-->
+							<!--<h5>Delphia 47</h5>-->
+							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
+							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
+					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">-->
+						<!--<img src="img/g2.jpg" alt="" class="mainimg" />-->
+						<!--<button class="price">$950 / day</button>-->
+						<!--<div class="innercontent">-->
+							<!--<h5>Sense 55</h5>-->
+							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
+							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>		-->
+				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
+					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">-->
+						<!--<img src="img/g2.jpg" alt="" class="mainimg" />-->
+						<!--<button class="price">$950 / day</button>-->
+						<!--<div class="innercontent">-->
+							<!--<h5>Crusier 51</h5>-->
+							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
+							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
+					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">-->
+						<!--<img src="img/g1.jpg" alt="" class="mainimg" />-->
+						<!--<button class="price">$950 / day</button>-->
+						<!--<div class="innercontent">-->
+							<!--<h5>Crusier 41S</h5>-->
+							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
+							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>		-->
+			<!--</div>-->
+			<!--<button class="explore">LOAD MORE BOATS</button>-->
+		<!--</div>	-->
+	<!--</section>-->
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -266,5 +321,14 @@
 	<script type="text/javascript" src="js/script.js"></script>
 	<script src="js/countUp.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function() {
+            output.innerHTML = this.value;
+        }
+	</script>
 </body>
 </html>
