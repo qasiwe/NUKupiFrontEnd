@@ -683,7 +683,7 @@ if it's not present, don't show loader */
 
 .toggle-button--aava input[type=checkbox] + label {
   width: 190px;
-  background: #FF5335; }
+  background: #e7434e; }
 .toggle-button--aava input[type=checkbox] + label:before {
   opacity: 0;
   transform: translate(0, 20px); }
@@ -1092,6 +1092,11 @@ div.gadot{
   display: table;
   width: 100%;
   table-layout: fixed;
+}
+
+form.checkBoxes{
+
+padding: 0px;
 }
 
 /*FILTER CSS END*/

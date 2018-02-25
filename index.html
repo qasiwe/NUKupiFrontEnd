@@ -66,32 +66,42 @@
 			<div class="row">
 
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="maincounter">
 
 					<section class="section section--aava">
-						<form name = "checkBoxForm">
+						<form class="checkBoxes" name = "checkBoxForm">
+							<div class="innercounter">
 							<div class="toggle-button toggle-button--aava">
 								<input id="toggleButton" name ="checkBoxGroup" type="checkbox" onclick="filterCheckbox(this)">
 								<label for="toggleButton" data-on-text="Food" data-off-text="Food"></label>
 								<div class="toggle-button__icon"></div>
 							</div>
+							</div>
+							<div class="innercounter">
 							<div class="toggle-button toggle-button--aava">
 								<input id="toggleButton2" name ="checkBoxGroup" type="checkbox" onclick="filterCheckbox(this)">
 								<label for="toggleButton2" data-on-text="Clothes" data-off-text="Clothes"></label>
 								<div class="toggle-button__icon"></div>
 							</div>
+							</div>
+							<div class="innercounter">
 							<div class="toggle-button toggle-button--aava" >
 								<input id="toggleButton3" name ="checkBoxGroup"  type="checkbox" onclick="filterCheckbox(this)">
 								<label for="toggleButton3" data-on-text="Domestic" data-off-text="Domestic"></label>
 								<div class="toggle-button__icon"></div>
 							</div>
+							</div>
+							<div class="innercounter">
 							<div class="toggle-button toggle-button--aava">
 								<input id="toggleButton4" name ="checkBoxGroup" type="checkbox" onclick="filterCheckbox(this)">
 								<label for="toggleButton4" data-on-text="Other" data-off-text="Other"></label>
 								<div class="toggle-button__icon"></div>
 							</div>
+							</div>
 						</form>
 					</section>
-
+						<!--</div>-->
+					</div>
 
 
 					<!--<div class="btn-group-toggle" data-toggle="buttons">-->
@@ -141,7 +151,7 @@
 				<div class="slidecontainer">
 
 					<p>Price filter:</p>
-					<input type="range" min="0" max="10000" value="1000 tg" class="slider" id="myRange">
+					<input type="range" min="0" max="10000" value="10000" class="slider" id="myRange">
 					<p><span id="sliderOutputVal"></span></p>
 				</div>
 
@@ -209,63 +219,7 @@
 		</div>
 	</section>
 
-	<!--<section id="featured">-->
-		<!--<div class="container">-->
-			<!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
-				<!--&lt;!&ndash;<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&ndash;&gt;-->
-					<!--&lt;!&ndash;<h3 class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.3s">FEATURED POSTS</h3>&ndash;&gt;-->
-					<!--&lt;!&ndash;<p class="innerp os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>&ndash;&gt;-->
-				<!--&lt;!&ndash;</div>&ndash;&gt;-->
-			<!--&lt;!&ndash;</div>&ndash;&gt;-->
-			<!--<div class="row">-->
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
-					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s">-->
-						<!--<img src="img/g1.jpg" alt="" class="mainimg" />-->
-						<!--<button class="price">$580 / day</button>-->
-						<!--<div class="innercontent">-->
-							<!--<h5>Delphia 47</h5>-->
-							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
-							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
-						<!--</div>-->
-					<!--</div>-->
-				<!--</div>-->
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
-					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">-->
-						<!--<img src="img/g2.jpg" alt="" class="mainimg" />-->
-						<!--<button class="price">$950 / day</button>-->
-						<!--<div class="innercontent">-->
-							<!--<h5>Sense 55</h5>-->
-							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
-							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
-						<!--</div>-->
-					<!--</div>-->
-				<!--</div>		-->
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
-					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">-->
-						<!--<img src="img/g2.jpg" alt="" class="mainimg" />-->
-						<!--<button class="price">$950 / day</button>-->
-						<!--<div class="innercontent">-->
-							<!--<h5>Crusier 51</h5>-->
-							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
-							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
-						<!--</div>-->
-					<!--</div>-->
-				<!--</div>-->
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">	-->
-					<!--<div class="innerimgnew os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.5s"">-->
-						<!--<img src="img/g1.jpg" alt="" class="mainimg" />-->
-						<!--<button class="price">$950 / day</button>-->
-						<!--<div class="innercontent">-->
-							<!--<h5>Crusier 41S</h5>-->
-							<!--<span><i class="fa fa-map-marker" aria-hidden="true"></i> Gdańsk, Poland</span>-->
-							<!--<span class="secondspan"><i class="fa fa-users" aria-hidden="true"></i></i> 8 Berths</span>-->
-						<!--</div>-->
-					<!--</div>-->
-				<!--</div>		-->
-			<!--</div>-->
-			<!--<button class="explore">LOAD MORE BOATS</button>-->
-		<!--</div>	-->
-	<!--</section>-->
+
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -326,7 +280,10 @@
 	<script>
         var slider = document.getElementById("myRange");
         var output = document.getElementById("sliderOutputVal");
-        output.innerHTML = slider.value;
+
+        var x = document.getElementById("myRange").defaultValue;
+        x = 5;
+        // slider.value.defaultValue.t = "Choose value";
 
         slider.oninput = function() {
             if (this.value == 0){
@@ -362,7 +319,35 @@
             console.log(filterArr);
         }
 	</script>
+	<script>
+        function getAll() {
+            var serv_request = new XMLHttpRequest();
+            serv_request.onreadystatechange = function() {
+                if (serv_request.readyState==4 && serv_request.status==200) {
+                    jo = JSON.parse(serv_request.responseText);
+                    document.getElementById("prods").innerHTML = jo[0].title + jo[0].category;
+                }
+            }
+            serv_request.open('GET', 'rest/products/filters');
+            serv_request.send(null);
+        }
 
-	<!--Price bar-->
+        function getFiltered() {
+            var serv_request = new XMLHttpRequest();
+            serv_request.onreadystatechange = function() {
+                if (serv_request.readyState==4 && serv_request.status==200) {
+                    jo = JSON.parse(serv_request.responseText);
+                    document.getElementById("prods").innerHTML = jo;
+                }
+            }
+            //var title =
+            //var price =
+            //var category =
+            serv_request.open('GET', 'rest/products/filters?price=9');
+            serv_request.send(null);
+        }
+
+	</script>
+	<!--Requests-->
 </body>
 </html>
