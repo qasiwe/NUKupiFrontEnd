@@ -671,7 +671,7 @@ if it's not present, don't show loader */
   height: 50px;
   line-height: 50px;
   transition: all 0.2s;
-  border-radius: 2rem; }
+  border-radius: 0.25rem; }
 .toggle-button--aava label:before, .toggle-button--aava label:after {
   position: absolute;
   right: 1.5rem;
